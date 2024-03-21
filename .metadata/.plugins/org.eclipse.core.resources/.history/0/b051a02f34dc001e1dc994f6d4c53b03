@@ -1,0 +1,5 @@
+package com.studentadmin.serviceimpl;
+
+public class AdminServiceImpl {
+
+}

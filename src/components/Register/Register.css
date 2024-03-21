@@ -1,0 +1,49 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.input-field {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.register-button {
+  width: 150px;
+  height: 40px;
+  background-color: #54a345;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: #45a836;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+p a {
+  color: #499137;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}

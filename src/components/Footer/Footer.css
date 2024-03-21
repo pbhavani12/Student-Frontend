@@ -1,0 +1,30 @@
+/* Updated Footer Styles */
+.footer {
+  background: #333; /* Change background color to a dark shade */
+  color: white; /* Text color */
+  font-size: 16px; /* Adjust font size */
+  padding: 0px; /* Adjust padding around content */
+  text-align: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-links {
+  margin-top: 10px; /* Add margin at the top of the links */
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 15px; /* Adjust spacing between links */
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff; /* Link color */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}

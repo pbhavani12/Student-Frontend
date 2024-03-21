@@ -1,0 +1,5 @@
+package com.studentadmin.service;
+
+public class StudentService {
+
+}

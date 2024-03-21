@@ -1,0 +1,5 @@
+package com.studentadmin.config;
+
+public class SecurityConfig {
+
+}

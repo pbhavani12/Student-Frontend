@@ -1,0 +1,42 @@
+.delete-student-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.delete-student-container h2 {
+  text-align: center;
+}
+
+.delete-student-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-student-container .form-group {
+  margin-bottom: 15px;
+}
+
+.delete-student-container .form-group label {
+  margin-bottom: 5px;
+}
+
+.delete-student-container input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.delete-student-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-student-container button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,37 @@
+/* ViewStudentbyId.css */
+
+.student-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* background-color: #f9f9f9; */ /* Remove or comment out this line */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.student-details h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-details input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.student-details p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.student-details strong {
+  font-weight: bold;
+  color: #674ea0;
+}

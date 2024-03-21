@@ -1,0 +1,5 @@
+package com.studentadmin.repository;
+
+public class AdminRepository {
+
+}

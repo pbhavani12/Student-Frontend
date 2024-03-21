@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://img.freepik.com/free-photo/green-paint-brush-textured-background_53876-104801.jpg?w=900&t=st=1710300267~exp=1710300867~hmac=4a59c6960a7b610e438d686bc4f647efb51865a9ff95dc63bff92d3d708cdda7");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

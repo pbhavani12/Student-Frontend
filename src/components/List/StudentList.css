@@ -1,0 +1,29 @@
+/* StudentList.css */
+
+.student-list-container {
+  margin-top: 20px;
+}
+
+.student-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list-table th,
+.student-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-list-table th {
+  background-color: #f2f2f2;
+}
+
+.student-list-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-list-table tbody tr:hover {
+  background-color: #ddd;
+}
