@@ -23,7 +23,7 @@ const UpdateStudent = () => {
 
     try {
       const response = await fetch(
-        `http://localhost:8082/admin/studentsbyid/${value}`
+        `https://backend-4vwz.onrender.com/admin/studentsbyid/${value}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
