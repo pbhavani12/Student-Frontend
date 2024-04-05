@@ -19,7 +19,7 @@ const ViewStudentbyId = () => {
     setError(null); // Reset error state
     setStudent(null); // Reset student state
 
-    fetch(`http://localhost:8082/admin/studentsbyid/${id}`)
+    fetch(`https://backend-4vwz.onrender.com/admin/studentsbyid/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
