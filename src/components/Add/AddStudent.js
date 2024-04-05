@@ -31,7 +31,7 @@ const AddStudent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://backend-4vwz.onrender.com/admin/allstudents", {
+    fetch("https://backend-4vwz.onrender.com/admin/students", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
