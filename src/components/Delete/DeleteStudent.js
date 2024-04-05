@@ -14,7 +14,7 @@ const DeleteStudent = () => {
   useEffect(() => {
     // Fetch student details when studentId changes
     if (studentId !== "") {
-      fetch(`http://localhost:8082/admin/studentsbyid/${studentId}`)
+      fetch(`https://backend-4vwz.onrender.com/admin/studentsbyid/${studentId}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Student not found");
