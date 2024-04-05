@@ -30,7 +30,7 @@ const Login = ({ onLogin }) => {
         return; // Exit the function if password does not meet requirements
       }
 
-      const response = await fetch("http://localhost:8082/admin/login", {
+      const response = await fetch("https://backend-4vwz.onrender.com/admin/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
