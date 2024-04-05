@@ -27,7 +27,7 @@ const Register = ({ onRegister }) => {
     }
 
     try {
-      const response = await fetch("http://localhost:8082/admin/register", {
+      const response = await fetch("https://backend-4vwz.onrender.com/admin/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
