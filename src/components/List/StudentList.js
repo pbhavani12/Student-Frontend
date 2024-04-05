@@ -10,7 +10,7 @@ const StudentList = () => {
 
   const fetchStudents = async () => {
     try {
-      const response = await fetch("http://localhost:8082/admin/allstudents");
+      const response = await fetch("https://backend-4vwz.onrender.com/admin/allstudents");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
