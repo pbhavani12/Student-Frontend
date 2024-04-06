@@ -27,8 +27,8 @@ const ViewStudentbyId = () => {
         return response.json();
       })
       .then((data) => {
+       setStudent(data);
         setError(null);
-        setStudent(data);
       })
       .catch((error) => {
         console.error("Error fetching student:", error);
