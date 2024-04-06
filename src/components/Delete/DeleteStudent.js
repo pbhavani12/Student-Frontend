@@ -56,7 +56,7 @@ const DeleteStudent = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch(`http://localhost:8082/admin/deletestudents/${studentId}`, {
+    fetch(`https://backend-4vwz.onrender.com/admin/deletestudents/${studentId}`, {
       method: "DELETE",
     })
       .then((response) => {
