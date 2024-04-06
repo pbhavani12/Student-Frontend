@@ -14,7 +14,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import { AuthProvider } from "./components/AuthContext";
 import Home2 from "./components/Home/Home2";
-
+import Logout from "./components/Logout/Logout";
 function App() {
   return (
     <AuthProvider>
@@ -32,6 +32,7 @@ function App() {
           <Route path="/studentlist" element={<StudentList />} />
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Logout" element={<Logout />} />
           <Route path="/Home2" element={<Home2 />} />
         </Routes>
         <Footer />
