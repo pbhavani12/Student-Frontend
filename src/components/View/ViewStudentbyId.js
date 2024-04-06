@@ -27,6 +27,7 @@ const ViewStudentbyId = () => {
         return response.json();
       })
       .then((data) => {
+        setError(null);
         setStudent(data);
       })
       .catch((error) => {
@@ -34,7 +35,7 @@ const ViewStudentbyId = () => {
         setError("Student with this Id is not found. Please try again."); // Set error state if there's an error
       })
       .finally(() => {
-        setError(null);
+        
         setLoading(false); // Set loading state to false after data fetching is complete
       });
   }, [id]);
