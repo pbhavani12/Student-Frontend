@@ -50,7 +50,7 @@ const UpdateStudent = () => {
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  fetch(`https://backend-4vwz.onrender.com/admin/students/${studentId}}`, {
+  fetch(`https://backend-4vwz.onrender.com/admin/students/${studentId}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
