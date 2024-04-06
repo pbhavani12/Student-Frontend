@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul className="navbar-nav">
         <li className="nav-item">
           <Link to="/" className="nav-link">
-            <FontAwesomeIcon icon={faHome} /> {/* Home icon */}
+            <FontAwesomeIcon icon={faHome} />
             Home
           </Link>
         </li>
@@ -47,18 +47,23 @@ const Navbar = () => {
         {/* New navigation items */}
         <li className="nav-item">
           <Link to="/about" className="nav-link">
-            <FontAwesomeIcon icon={faInfoCircle} /> {/* About icon */}
+            <FontAwesomeIcon icon={faInfoCircle} />
             About
           </Link>
         </li>
         <li className="nav-item">
           <Link to="/contact" className="nav-link">
-            <FontAwesomeIcon icon={faEnvelope} /> {/* Contact icon */}
+            <FontAwesomeIcon icon={faEnvelope} />
             Contact
           </Link>
         </li>
-        
-        
+        {/* Logout link */}
+        <li className="nav-item">
+          <Link to="/logout" className="nav-link">
+            <FontAwesomeIcon icon={faSignOutAlt} />
+            Logout
+          </Link>
+        </li>
       </ul>
     </nav>
   );
